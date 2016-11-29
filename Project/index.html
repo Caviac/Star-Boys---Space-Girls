@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script src="lib/jquery-3.1.1.js"></script>
+	<script src="src/app.js"></script>
+	<script src="src/lists.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<title>Star Boys & Space Girls</title>
+</head>
+<body class='general'>
+	<h1 class="title">⋆★✦✸Star Boys & Space Girls✸✦★⋆</h1>
+	<div class="line-separator"></div>
+	<h2>Characters</h2>
+	<p>Keep track of character health! Type a name below and press the button to add a character.</p>
+	<form>
+		<input type="text" id="name">
+		<input type="submit" value="Create" id="createButton">
+	</form>
+	<div id="characterList"></div>
+	</br>
+	<div class="line-separator"></div>
+	<h2>Dice</h3>
+	<p>Who needs 'em? Use this random number generator to "roll" a virtual d20 instead!</p>
+	<form>
+		<input class="diceButton" type="submit" value="Roll a d20!" id="rollButton"/>
+	</form>
+	<div class="diceResult" id="diceResultSpot"></div>
+	<div class="line-separator"></div>
+	<h2>Search</h2>
+	<p>Look up specific Skills, Items, Weapons, Armor, etc.</p>
+	<form>
+		<input type="text" id="searchBar"/>
+		<input type="submit" value="Search" id="searchButton"/>
+	</form>
+	<div class="searchResult" id="searchResult"></div>
+	</br>
+	<div class="line-separator"></div>
+	<h2>Random Draws</h2>
+	<p>Draw random Skills, Items, Weapons, Armor, etc.</p>
+	<input class="randomButton" type="submit" value="Random Trait" id="randomTrait"/>
+	<input class="randomButton" type="submit" value="Random Item" id="randomItem"/>
+	<div class="randomResult" id="randomResult"></div>
+	<div class="line-separator-2"></div>
+</body>
+</html>
